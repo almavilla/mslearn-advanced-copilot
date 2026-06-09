@@ -168,5 +168,21 @@
       "November": {"high": 85, "low": 72},
       "December": {"high": 84, "low": 69}
     }
+  },
+  "United States": {
+    "Detroit": {
+      "January": {"high": 30, "low": 19},
+      "February": {"high": 33, "low": 20},
+      "March": {"high": 45, "low": 30},
+      "April": {"high": 57, "low": 39},
+      "May": {"high": 68, "low": 49},
+      "June": {"high": 77, "low": 58},
+      "July": {"high": 82, "low": 64},
+      "August": {"high": 80, "low": 63},
+      "September": {"high": 74, "low": 57},
+      "October": {"high": 62, "low": 46},
+      "November": {"high": 49, "low": 36},
+      "December": {"high": 36, "low": 24}
+    }
   }
 }
