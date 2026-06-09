@@ -11,6 +11,34 @@ Gain more practical experience by using this repository that contains a Python W
 1. Enable your [GitHub Copilot service](https://github.com/github-copilot/signup)
 1. Open [this repository with Codespaces](https://codespaces.new/MicrosoftDocs/mslearn-copilot-codespaces-python)
 
+## Getting started
+
+### Run locally
+
+1. Create and activate a Python virtual environment:
+   - Windows: `python -m venv .venv` then `.venv\Scripts\activate`
+   - macOS / Linux: `python3 -m venv .venv` then `source .venv/bin/activate`
+2. Install dependencies:
+   - `python -m pip install --upgrade pip`
+   - `python -m pip install -r requirements.txt`
+3. Start the app locally:
+   - `uvicorn main:app --reload --host 0.0.0.0 --port 8000`
+4. Open the API docs in your browser:
+   - `http://localhost:8000/docs`
+
+### Run tests
+
+- `pytest`
+
+### Run with Docker
+
+1. Build the production image:
+   - `docker build -f Dockerfile.prod -t weather-api:latest .`
+2. Run the container:
+   - `docker run -p 80:80 weather-api:latest`
+3. Open the app in your browser:
+   - `http://localhost/`
+
 ## 💪🏽 Exercise
 The current API is not exposing country/{country} which needs to be implemented to list cities. The route should allow only GET HTTP requests with a JSON response providing information from the historical high and low for that country, city, and given month.
 
