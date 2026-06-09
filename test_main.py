@@ -19,3 +19,7 @@ def test_cities_for_country():
     response = client.get("/countries/Portugal/cities")
     assert response.status_code == 200
     assert sorted(response.json()) == ["Lisbon", "Porto"]
+
+def test_cities_invalid_country():
+    response = client.get("/countries/InvalidCountry/cities")
+    assert response.status_code == 404
