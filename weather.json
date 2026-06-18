@@ -124,5 +124,65 @@
       "November": {"high": 69, "low": 51},
       "December": {"high": 63, "low": 45}
     }
+  },
+  "Mexico": {
+    "Mexico City": {
+      "January": {"high": 66, "low": 46},
+      "February": {"high": 68, "low": 48},
+      "March": {"high": 75, "low": 54},
+      "April": {"high": 79, "low": 57},
+      "May": {"high": 82, "low": 59},
+      "June": {"high": 77, "low": 59},
+      "July": {"high": 75, "low": 58},
+      "August": {"high": 75, "low": 58},
+      "September": {"high": 74, "low": 57},
+      "October": {"high": 73, "low": 55},
+      "November": {"high": 70, "low": 50},
+      "December": {"high": 66, "low": 47}
+    },
+    "Cancun": {
+      "January": {"high": 81, "low": 71},
+      "February": {"high": 82, "low": 72},
+      "March": {"high": 85, "low": 74},
+      "April": {"high": 88, "low": 77},
+      "May": {"high": 89, "low": 79},
+      "June": {"high": 87, "low": 79},
+      "July": {"high": 88, "low": 80},
+      "August": {"high": 88, "low": 80},
+      "September": {"high": 87, "low": 79},
+      "October": {"high": 85, "low": 77},
+      "November": {"high": 83, "low": 75},
+      "December": {"high": 81, "low": 72}
+    },
+    "Colima": {
+      "January": {"high": 84, "low": 68},
+      "February": {"high": 85, "low": 69},
+      "March": {"high": 87, "low": 71},
+      "April": {"high": 89, "low": 74},
+      "May": {"high": 90, "low": 77},
+      "June": {"high": 88, "low": 77},
+      "July": {"high": 87, "low": 76},
+      "August": {"high": 87, "low": 76},
+      "September": {"high": 86, "low": 76},
+      "October": {"high": 86, "low": 75},
+      "November": {"high": 85, "low": 72},
+      "December": {"high": 84, "low": 69}
+    }
+  },
+  "United States": {
+    "Detroit": {
+      "January": {"high": 30, "low": 19},
+      "February": {"high": 33, "low": 20},
+      "March": {"high": 45, "low": 30},
+      "April": {"high": 57, "low": 39},
+      "May": {"high": 68, "low": 49},
+      "June": {"high": 77, "low": 58},
+      "July": {"high": 82, "low": 64},
+      "August": {"high": 80, "low": 63},
+      "September": {"high": 74, "low": 57},
+      "October": {"high": 62, "low": 46},
+      "November": {"high": 49, "low": 36},
+      "December": {"high": 36, "low": 24}
+    }
   }
 }
